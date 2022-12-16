@@ -1,0 +1,109 @@
+/* Mobile (portrait) */
+@media only screen and (max-width:479px) {
+  .banner-info-container {
+    top: 30px;
+    left: 20px;
+  }
+  .banner-container img {
+    height: 300px;
+    max-height: 900px;
+  }
+  .banner-title {
+    font-size: 50px;
+    line-height: 40px;
+  }
+  .banner-text {
+    width: 80%;
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 20px;
+  }
+  #banner-button {
+    background-color: #fd8301;
+    font-size: 16px;
+    padding: 14px 27px;
+    
+  }
+
+  /* challenge section */
+  .container {
+    padding-top: 50px;
+    padding-bottom: 30px;
+  }
+  .section-info {
+    margin-left: 30px;
+  }
+  .sub-title {
+    font-size: 14px;
+  }
+  .section-title {
+    font-size: 30px;
+    line-height: 30px;
+  }
+  .section-text {
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 15px;
+  }
+  .cards-container {
+    width: 90%;
+    margin: 30px auto 0;
+  }
+  .card-2 {
+    margin: 0 15px;
+  }
+  .card-3 img {
+    height: auto;
+  }
+  .cards-container h2 {
+    font-size: 17px;
+    line-height: 20px;
+  }
+
+  /*=========== impact-section ===========*/
+  .impact-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .arrow-text {
+    margin-top: 25px;
+    font-size: 16px;
+  }
+  .right-arrow {
+    padding: 6px 10px;
+  }
+  .impact-section ul {
+    row-gap: 60px;
+    grid-template-columns: 1fr;
+    margin-top: 69px;
+  }
+  .list-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .list-title {
+    font-size: 30px;
+    line-height: 30px;
+  }
+  .list-text {
+    width: 100%;
+    font-size: 20px;
+  }
+
+  /* about-section */
+  .about-section-container {
+    width: 90%;
+    padding: 50px 0;
+  }
+  .about-section-header {
+    flex-direction: column;
+  }
+  #about-title {
+    font-size: 40px;
+  }
+  .about-section img {
+    width: 100%;
+    margin-top: 40px;
+  }
+}
