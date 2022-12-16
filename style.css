@@ -68,4 +68,76 @@ body{
   padding:24px 27px;
   margin-top: 27px;
   border: none;
+  text-transform: uppercase;
+}
+
+/* Challenge section */
+.challenge-section{
+  background-color: #F4F4F5;
+
+}
+.container{
+  padding-top: 230px;
+  padding-bottom: 230px;
+  
+}
+.section-info{
+  margin-left: 200px;
+}
+.sub-title{
+  font-size: 26px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.section-title{
+  font-size: 75px;
+  font-weight: 600;
+  line-height:65px ;
+}
+.section-title span{
+  color: #78BB21;
+}
+.section-text{
+  font-size: 24px;
+  line-height: 31px;
+  color: #7A7E84;
+  width: 85%;
+  margin-top: 20px;
+}
+.cards-container{
+  display: flex;
+  width: 80%;
+  margin: 51px auto 0;
+}
+.card-1,.card-3{
+  width: 30.2%;
+}
+.card-2{
+  width: 39.6%;
+  margin: 0 30px;
+}
+.card-3 img{
+  height: 450px;
+}
+.cards-container img{
+  width: 100%;
+}
+.cards-container h2{
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 45px;
+  margin-top: 25px;
+  letter-spacing: -0.02em;
+}
+
+/*=========== impact-section ===========*/
+.impact-section{
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+.arrow-text{
+  margin-top: 30px;
+  color: #FD8301;
+  font-size: 700;
+  font-size: 20px;
 }
