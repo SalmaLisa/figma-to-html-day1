@@ -18,7 +18,6 @@
     margin-top: 20px;
   }
   #banner-button {
-    background-color: #fd8301;
     font-size: 16px;
     padding: 14px 27px;
     
@@ -126,7 +125,6 @@
     margin-top: 20px;
   }
   #banner-button {
-    background-color: #fd8301;
     font-size: 16px;
     padding: 14px 27px;
     
@@ -183,6 +181,111 @@
   .impact-section ul {
     row-gap: 60px;
     grid-template-columns: 1fr;
+    margin-top: 69px;
+  }
+  .list-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .list-title {
+    font-size: 30px;
+    line-height: 30px;
+  }
+  .list-text {
+    width: 100%;
+    font-size: 20px;
+  }
+
+  /* about-section */
+  .about-section-container {
+    width: 90%;
+    padding: 50px 0;
+  }
+  .about-section-header {
+    flex-direction: column;
+  }
+  #about-title {
+    font-size: 40px;
+  }
+  .about-section img {
+    width: 100%;
+    margin-top: 40px;
+  }
+}
+/* =============== tab responsive ================= */
+@media only screen and (min-width:768px) and (max-width:1024px) {
+  .banner-info-container {
+    top: 150px;
+    left: 60px;
+  }
+  .banner-container img {
+    height: 550px;
+    
+  }
+  .banner-title {
+    font-size: 65px;
+    line-height: 65px;
+  }
+  .banner-text {
+    width: 80%;
+  }
+  #banner-button {
+    padding: 18px 27px;
+    
+  }
+
+  /* challenge section */
+  .container {
+    padding-top: 50px;
+    padding-bottom: 60px;
+  }
+  .section-info {
+    margin-left: 30px;
+  }
+  .sub-title {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  .section-title {
+    font-size: 50px;
+    line-height: 50px;
+  }
+  .section-text {
+    font-size: 25px;
+    line-height: 25px;
+    margin-top: 15px;
+  }
+  .cards-container {
+    width: 90%;
+    margin: 50px auto 0;
+  }
+  .card-2 {
+    margin: 0 25px;
+  }
+  .card-3 img {
+    height: auto;
+  }
+  .cards-container h2 {
+    font-size: 35px;
+    line-height: 30px;
+  }
+
+  /*=========== impact-section ===========*/
+  .impact-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .arrow-text {
+    margin-top: 25px;
+    font-size: 16px;
+  }
+  .right-arrow {
+    padding: 6px 10px;
+  }
+  .impact-section ul {
+    width: 90%;
+    row-gap: 60px;
     margin-top: 69px;
   }
   .list-container {
